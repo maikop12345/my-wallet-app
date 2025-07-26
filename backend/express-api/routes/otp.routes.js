@@ -1,4 +1,3 @@
-// backend/express-api/routes/otp.routes.js
 const router = require('express').Router();
 const otpController = require('../controllers/otp.controller');
 
@@ -7,7 +6,7 @@ const otpController = require('../controllers/otp.controller');
  * /otp:
  *   post:
  *     summary: Generar OTP
- *     description: Crea un código OTP de 6 dígitos y lo guarda en BD (válido 5 minutos).
+ *     description: Crea un código OTP de 6 dígitos y lo guarda en BD válido 5m
  *     requestBody:
  *       required: true
  *       content:
