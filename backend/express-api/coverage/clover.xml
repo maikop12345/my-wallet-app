@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1753677598352" clover="3.2.0">
-  <project timestamp="1753677598353" name="All files">
+<coverage generated="1753678090619" clover="3.2.0">
+  <project timestamp="1753678090619" name="All files">
     <metrics statements="100" coveredstatements="99" conditionals="38" coveredconditionals="38" methods="6" coveredmethods="6" elements="144" coveredelements="143" complexity="0" loc="100" ncloc="100" packages="1" files="6" classes="6"/>
     <file name="auth.controller.js" path="C:\Users\maiko\my-wallet-app\backend\express-api\controllers\auth.controller.js">
       <metrics statements="19" coveredstatements="19" conditionals="8" coveredconditionals="8" methods="1" coveredmethods="1"/>
