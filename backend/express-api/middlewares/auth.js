@@ -13,7 +13,7 @@ module.exports = (req, res, next) => {
   const token = parts[1];
   try {
     const payload = jwt.verify(token, secret);
-    req.user = payload; // { phone, ... }
+    req.user = payload;
     next();
   } catch (err) {
     return res.status(401).json({ error: 'Token inválido o expirado' });
